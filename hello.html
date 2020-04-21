@@ -2,8 +2,60 @@
   <html>
     <head>
       <title>My Webpage!</title>
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        h2 {
+            color: green;
+            text_align: center;
+        }
+      </style>
     </head>
     <body>
-      Hello, World! Hello, hello hello hello
+      <div id="top">
+        <h2 style="color:blue;text-align:center;">
+          Hello, World! <span class="name">top</span> Hello, hello hello hello</h2>
+      </div>
+      <div id="middle">
+        <p>this is the <span class="name">middle</span> of a paragraph</p>
+      </div>
+      <div id="bottom">
+        <p>this is the <span class="name">bottom</span> of a paragraph</p>
+      </div>
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+      <ul>
+      <ol>
+        <li>ordered list item 1</li>
+        <li>ordered list item 2</li>
+        <li>ordered list item 3</li>
+      <ol>
+      <img src="test_image.png" height="75%">
+      <h2>Table Test</h2>
+      <table>
+        <div id="bottom">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Years in Office</th>
+        </tr>
+        <tr>
+          <td>George</td>
+          <td>Washington</td>
+          <td>178-1797</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Adams</td>
+          <td>1797-1801</td>
+        </tr>
+      </div>
+      </table>
+      <break>
+        <form>
+          <input input="text" placeholder="Full Name" name="name">
+          <button>Submit!</button>
+        </form>
     </body>
   </html>
