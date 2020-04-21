@@ -1,9 +1,12 @@
+
+/* all h2 headers get this formatting */
 h2 {
       color: green;
       text_align: center;
       border: 3px solid blue;
     }
 
+/* all paragraphs get this formatting */
 p {
     color: darkblue;
     text_align: left;
@@ -18,18 +21,22 @@ p {
     border: 2px dotted red;
 }
 
+/* all tables get this formatting */
 table {
     border: 2px solid black;
     border-collapse: collapse;
     width: 50%;
 }
 
+/* all table headers and table data get this formatting */
 th, td {
   border: 1px solid black;
   background-color: lightgray;
   padding: 5px;
   text_align: center;
 }
+
+/* # is an id reference*/
 
 #top {
       font-size: 36px;
@@ -44,4 +51,23 @@ th, td {
 
 .name {
       font-weight: bold;
+}
+
+/* list and ordered lists */
+ol li {
+      color: lightgreen;
+      text_align: center;
+      border: 1px dotted darkblue;
+    }
+
+/* child lists are only formatted with > */
+ol > li {
+      color: lightgreen;
+      text_align: center;
+      border: 1px dotted darkblue;
+    }
+
+/* only inpuyt type = text objects are formatted*/
+input[type=text] {
+      background-color: purple;
 }
